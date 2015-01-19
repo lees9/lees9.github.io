@@ -1,0 +1,84 @@
+/*Name: Sang Hoon Lee
+  Class: CS290 Winter 2015
+  Assignment: HTML_CSS_Forms
+  Date: 01/18/2015
+  Filename: layout.html*/
+
+
+body {
+	color: #0000;
+	font-family: arial;
+	background-color: #ECE6ED;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+th, td{
+	padding: 10px;
+	text-align: center;
+}
+
+td.p1{
+	font-style: italic;
+}
+
+td.p2{
+	color: red;
+}
+
+td.p3{
+	color: blue;
+}
+
+tr.p4{
+	background-color: #B3FFAC;
+}
+
+tr.p5{
+	background-color: #C0EDFA;
+}
+
+/*Got how to hover and highlight different areas from:
+http://css-tricks.com/forums/topic/how-to-make-hovering-over-one-div-to-trigger-changes-in-another-div/ */
+
+#id1:hover ~ #id1match{
+	background: purple;
+}
+
+#id2:hover ~ #id2match{
+	background: purple;
+}
+
+#id3:hover ~ #id3match{
+	background: purple;
+}
+
+form, input{
+	border: 1px solid black;
+}
+
+.outer-content{
+	background-color: pink;
+	width: 75%;
+	margin: 25px;
+	padding: 20px;
+	display: block;
+	left: 0px;
+}
+.inner-content{
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	padding: 55px;
+	text-align: center;
+}
+
+img{
+	display: block;
+	float: left;
+	width:100px;
+	height:125px;
+}
